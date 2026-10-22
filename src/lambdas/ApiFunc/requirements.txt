@@ -1,1 +1,16 @@
-pydub
+pip==26.2.2 \
+    --hash=sha256:fd7f4dfa8190e014013b9f08f3e973f4e4c26ffd179a204895533a7254813a70
+awslambdaric==3.1.1 \
+    --hash=sha256:dc30e9b674828b4d00f703f7774e1bc6e78f8cc1b7fd577e583d66e1c62734ea
+simplejson==3.20.2 \
+    --hash=sha256:21e7a066528a5451433eb3418184f05682ea0493d14e9aae690499b7e1eb6b81
+snapshot-restore-py==1.0.0 \
+    --hash=sha256:38f99e696793790f54658e71c68c7a8a40cea877c81232b5052383b1301aceba
+pydub==0.25.1 \
+    --hash=sha256:65617e33033874b59d87db603aa1ed450633288aefead953b30bded59cb599a6
+numpy==1.26.4 \
+    --hash=sha256:666dbfb6ec68962c033a450943ded891bed2d54e6755e35e5835d63f4f6931d5
+pydantic==1.10.24 \
+    --hash=sha256:bed9d6eea5fabbc6978c42e947190c7bd628ddaff3b56fc963fe696c3710ccd6
+typing-extensions==4.15.0 \
+    --hash=sha256:f0fa19c6845758ab08074a0cfa8b7aecb71c999ca73d62883bc25cc018c4e548
