@@ -9,6 +9,10 @@ AWS Lambda 上で [VOICEVOX](https://voicevox.hiroshiba.jp/) による合成音�
 - [AWS CDK](https://aws.amazon.com/jp/cdk/)
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
+## 配備情報
+
+Owner確認では、このPython実装は未配備です。別実装のruntimeをこのrepositoryの配備物として扱わないでください。sourceだけで現行runtimeやconsumerを推定せず、[配備情報の確認](docs/operations/deployment.md)を参照してください。
+
 ## デプロイ
 
 AWS CDK を使ってデプロイします。
