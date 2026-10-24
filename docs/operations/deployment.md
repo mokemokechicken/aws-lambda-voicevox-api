@@ -14,7 +14,7 @@ Owner確認では、このPython実装は未配備。別実装のruntimeをこ�
 git status --short
 git branch -avv
 git ls-tree -r --name-only HEAD
-rg -n 'cdk|lambda|runtime|handler|Docker' README.md package.json cdk.json bin lib
+git grep -n -E 'lambda|runtime|handler|Docker' HEAD -- '*.py' '*.ts' '*.js' 'Dockerfile*' '*.yaml' '*.yml' '*.toml' '*.json' || true
 ```
 
 これらはcheckout内のsource/branch構成を確認するためのread-only操作であり、AWSへの問い合わせや変更を行わない。配備先の照合は、ownerが同一性を確認した別の運用手順で行う。
